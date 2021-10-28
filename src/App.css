@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+}
+
+.background {
+  height:100vh;
+}
+
+.form {
+  position:relative;
+  top:2vh;
+  right:0;
+  left:0;
+  margin-bottom: 0.5vh;
+}
+
+.form-input {
+  border:1px solid black;
+  width:40%;
+  padding:1.5vh;
+  font-size: 3vh;
+  font-family: 'Kanit', sans-serif;
+  letter-spacing: 1px;
+}
+
+.form-input:focus {
+  outline:none;
+}
+
+.searches {
+  font-family: 'Kanit', sans-serif;
+  letter-spacing: 1px;
+  font-size: 3vh;
+  position:absolute;
+  top:13vh;
+  left:0;
+  right:0;
+  background-color: white;
+}
+
+.current-temp {
+  font-family: 'Kanit', sans-serif;
+  letter-spacing: 1px;
+  font-size: 2vh;
+  width:25%;
+  padding:1vw;
+  margin: 2vw;
+  text-align: left;
+}
+
+.current-location {
+  font-family: 'Kanit', sans-serif;
+  letter-spacing: 1px;
+  font-size: 2vh;
+  width:25%;
+  padding:1vw;
+  margin: 2vw;
+  text-align: left;
+  display:flex;
+  align-items: center;
+}
+
+.current-astro {
+  font-family: 'Kanit', sans-serif;
+  letter-spacing: 1px;
+  font-size: 2vh;
+  width:25%;
+  padding:1vw;
+  margin: 2vw;
+  text-align: left;
+}
+
+.barChart {
+  font-family: 'Kanit', sans-serif;
+  width:35%;
+}
+
+.doughnut {
+  width:25%;
+}
+
+.hour-chart{
+  width:50%;
+}
